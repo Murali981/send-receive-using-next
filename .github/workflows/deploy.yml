@@ -3,7 +3,7 @@ name: Build and Deploy to Docker Hub
 on:
   push:
     branches:
-      - master # When there is anytime a push to the master branch then run the below build and push jobs....
+      - main # When there is anytime a push to the master branch then run the below build and push jobs....
 
 jobs:
   build-and-push:
